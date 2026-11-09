@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jornal do Desenvolvimento · Telas na primeira infância</title>
+<meta name="description" content="Apresentação do Grupo 2 (AT3 · Psicologia do Desenvolvimento · UCB) em formato de telejornal, feita só com HTML e CSS.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navegação 100% CSS: cada cena é um botão de rádio. Os botões VOLTAR/AVANÇAR são <label>s. -->
+<input type="radio" name="s" id="s1" class="r" checked autofocus aria-label="Cena 1">
+<input type="radio" name="s" id="s2" class="r" aria-label="Cena 2">
+<input type="radio" name="s" id="s3" class="r" aria-label="Cena 3">
+<input type="radio" name="s" id="s4" class="r" aria-label="Cena 4">
+<input type="radio" name="s" id="s5" class="r" aria-label="Cena 5">
+<input type="radio" name="s" id="s6" class="r" aria-label="Cena 6">
+<input type="radio" name="s" id="s7" class="r" aria-label="Cena 7">
+<input type="radio" name="s" id="s8" class="r" aria-label="Cena 8">
+<input type="radio" name="s" id="s9" class="r" aria-label="Cena 9">
+<input type="radio" name="s" id="s10" class="r" aria-label="Cena 10">
+<input type="radio" name="s" id="s11" class="r" aria-label="Cena 11">
+<input type="radio" name="s" id="s12" class="r" aria-label="Cena 12">
+<input type="radio" name="s" id="s13" class="r" aria-label="Cena 13">
+<input type="radio" name="s" id="s14" class="r" aria-label="Cena 14">
+<input type="radio" name="s" id="s15" class="r" aria-label="Cena 15">
+<input type="radio" name="s" id="s16" class="r" aria-label="Cena 16">
+<input type="radio" name="s" id="s17" class="r" aria-label="Cena 17">
+<input type="radio" name="s" id="s18" class="r" aria-label="Cena 18">
+
+<main class="tv">
+ <div class="studio"><i class="beam b1"></i><i class="beam b2"></i><i class="beam b3"></i></div>
+
+ <div class="viewport"><div class="zoomer"><div class="canvas">
+  <div class="world-grid"></div>
+  <svg class="route" viewBox="-300 -300 800 600" preserveAspectRatio="none" aria-hidden="true"><polyline points="0,0 125,-10 245,25 330,110 215,120 95,135 -40,120 -165,90 -190,-20 -20,-150 -45,-160 5,-160 -45,-131 5,-131 120,-120 240,-80 360,-110"/></svg>
+<section class="slide" data-n="1" style="--x:0;--y:0;--r:0deg;--s:1">
+<div class="inner"><div class="open">
+ <div class="open-txt">
+  <div class="fx kick" style="--d:0">EDIÇÃO ESPECIAL · AT3</div>
+  <h1 class="fx type" style="--d:1">Telas na primeira infância</h1>
+  <p class="fx sub" style="--d:2">desenvolvimento, relações e contextos</p>
+  <div class="fx anchors" style="--d:3"><span>Apresentação</span> Nicolle · Ruth · Ryan · Weney</div>
+  <p class="fx meta" style="--d:4">Psicologia do Desenvolvimento – Infância e Adolescência · Universidade Católica de Brasília<br>Profa. Bianca Mayumi Matsuura Yoshioka · Grupo 2 · 10/11/2026</p>
+ </div>
+ <div class="fx open-img pop" style="--d:2"><div class="orbit o1"></div><div class="orbit o2"></div><div class="orbit o3"></div><svg viewBox="0 0 120 220" class="img-phone" aria-hidden="true">
+<defs><linearGradient id="scr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs>
+<rect x="6" y="4" width="108" height="212" rx="18" fill="#0b1226" stroke="#cbd5e1" stroke-width="3"/>
+<rect x="14" y="22" width="92" height="170" rx="6" fill="url(#scr)"/>
+<rect x="46" y="10" width="28" height="5" rx="2.5" fill="#334155"/>
+<circle cx="60" cy="204" r="5" fill="#334155"/>
+<circle cx="60" cy="100" r="22" fill="rgba(255,255,255,.18)"/><path d="M53 88 L74 100 L53 112 Z" fill="#fff"/>
+<rect x="22" y="150" width="76" height="5" rx="2.5" fill="rgba(255,255,255,.35)"/>
+<rect x="22" y="150" width="40" height="5" rx="2.5" fill="#e11d2e"/>
+<rect x="22" y="164" width="34" height="18" rx="3" fill="rgba(255,255,255,.25)"/><rect x="62" y="164" width="34" height="18" rx="3" fill="rgba(255,255,255,.25)"/>
+</svg></div>
+</div></div></section>
+<section class="slide" data-n="2" style="--x:125;--y:-10;--r:-5deg;--s:1">
+<div class="inner"><div class="fx kick " style="--d:0">MANCHETE</div><h2 class="fx type" style="--d:1">Desenvolver-se onde, com quem e em que condições?</h2>
+<div class="cols2">
+ <ul class="bul">
+  <li class="fx left" style="--d:2"><b>Primeira infância (0 a 6 anos):</b> período de transformações intensas na linguagem, na atenção, na autorregulação, no brincar e nos vínculos (Marco Legal da Primeira Infância, 2016).</li>
+  <li class="fx left" style="--d:3"><b>As telas viraram rotina:</b> celular, tablet, TV e computador acompanham a criança em casa, no carro, nas festas.</li>
+  <li class="fx left" style="--d:4"><b>O debate público costuma ficar no “tempo de tela”</b> e na culpa da família.</li>
+ </ul>
+ <div class="fx card hl pop" style="--d:5"><span class="tagmini">NOSSA PAUTA</span>
+  <p>Olhar menos para o aparelho e mais para as <b>relações</b> e os <b>contextos</b> em que ele é usado.</p>
+  <p class="small">Lentes: modelo bioecológico de <b>Bronfenbrenner</b> (Pessoa, Processo, Contexto e Tempo) e a mediação no brincar em <b>Vigotski</b>.</p></div>
+</div></div></section>
+<section class="slide" data-n="3" style="--x:245;--y:25;--r:4deg;--s:1">
+<div class="inner"><div class="fx kick " style="--d:0">SERVIÇO</div><h2 class="fx type" style="--d:1">O que dizem as recomendações</h2>
+<div class="stats">
+ <div class="fx stat pop" style="--d:2"><div class="big">0</div><div class="unit">telas</div><p>antes dos <b>2 anos</b>: a orientação é evitar a exposição</p><small>SBP, 2019</small></div>
+ <div class="fx stat pop" style="--d:3"><div class="big">1h</div><div class="unit">por dia, no máximo</div><p>dos <b>2 aos 5 anos</b>, sempre com supervisão de um adulto</p><small>SBP, 2019 · OMS, 2019</small></div>
+ <div class="fx stat pop red" style="--d:4"><div class="big">2025</div><div class="unit">Lei nº 15.100</div><p>restringe o uso de celulares pelos estudantes nas escolas de educação básica</p><small>Brasil, 2025</small></div>
+</div>
+<p class="fx note" style="--d:5">Na prática, essas recomendações encontram <b>jornadas de trabalho longas</b>, <b>bairros sem espaço seguro</b> para brincar e <b>plataformas desenhadas para prender a atenção</b>.</p></div></section>
+<section class="slide" data-n="4" style="--x:330;--y:110;--r:-3deg;--s:1">
+<div class="inner"><div class="fx kick " style="--d:0">BASTIDORES</div><h2 class="fx type" style="--d:1">Como a reportagem foi feita</h2>
+<div class="people">
+ <div class="fx person pop" style="--d:2"><svg viewBox="0 0 80 80" class="avatar" aria-hidden="true"><circle cx="40" cy="40" r="39" fill="#1e3a8a"/>
+<circle cx="40" cy="31" r="14" fill="#93c5fd"/><path d="M14 72 C16 52 64 52 66 72 Z" fill="#93c5fd"/>
+<rect x="8" y="34" width="64" height="8" fill="rgba(0,0,0,.55)"/></svg><div class="pname">Luciana<span>nome fictício</span></div>
+<div class="prole">Professora · escola pública</div><div class="pinfo">Turma do 1º período (4 a 5 anos)</div><div class="pmode">Presencial · 16 min · gravada</div></div>
+ <div class="fx person pop" style="--d:3"><svg viewBox="0 0 80 80" class="avatar" aria-hidden="true"><circle cx="40" cy="40" r="39" fill="#6d28d9"/>
+<circle cx="40" cy="31" r="14" fill="#ddd6fe"/><path d="M14 72 C16 52 64 52 66 72 Z" fill="#ddd6fe"/>
+<rect x="8" y="34" width="64" height="8" fill="rgba(0,0,0,.55)"/></svg><div class="pname">Renata<span>nome fictício</span></div>
+<div class="prole">Professora · escola particular</div><div class="pinfo">Turma do maternal (2 a 3 anos)</div><div class="pmode">Videochamada · 13 min · gravada</div></div>
+ <div class="fx person pop" style="--d:4"><svg viewBox="0 0 80 80" class="avatar" aria-hidden="true"><circle cx="40" cy="40" r="39" fill="#b91c1c"/>
+<circle cx="40" cy="31" r="14" fill="#fecaca"/><path d="M14 72 C16 52 64 52 66 72 Z" fill="#fecaca"/>
+<rect x="8" y="34" width="64" height="8" fill="rgba(0,0,0,.55)"/></svg><div class="pname">Joana<span>nome fictício</span></div>
+<div class="prole">Mãe</div><div class="pinfo">Menino de 4 anos</div><div class="pmode">Presencial · 18 min · anotações</div></div>
+ <div class="fx person pop" style="--d:5"><svg viewBox="0 0 80 80" class="avatar" aria-hidden="true"><circle cx="40" cy="40" r="39" fill="#0f766e"/>
+<circle cx="40" cy="31" r="14" fill="#99f6e4"/><path d="M14 72 C16 52 64 52 66 72 Z" fill="#99f6e4"/>
+<rect x="8" y="34" width="64" height="8" fill="rgba(0,0,0,.55)"/></svg><div class="pname">Carla<span>nome fictício</span></div>
+<div class="prole">Mãe</div><div class="pinfo">Menina de 3 anos</div><div class="pmode">Videochamada · 12 min · gravada</div></div>
+</div>
+<div class="facts">
+ <div class="fx fact" style="--d:6"><b class="num" style="--to:4;--n:4"></b><span>entrevistadas</span></div>
+ <div class="fx fact" style="--d:7"><b class="num" style="--to:7;--n:7"></b><span>perguntas abertas</span></div>
+ <div class="fx fact" style="--d:8"><b class="num" style="--to:59;--n:59"></b><span>minutos de escuta</span></div>
+ <div class="fx fact ethic" style="--d:9"><span>✔ TCLE assinado antes de cada entrevista · ✔ nomes fictícios · ✔ gravações só para o grupo, apagadas após a apresentação</span></div>
+</div></div></section>
+<section class="slide" data-n="5" style="--x:215;--y:120;--r:6deg;--s:1">
+<div class="inner"><div class="fx kick " style="--d:0">REPORTAGEM</div><h2 class="fx type" style="--d:1">A tela fica fora da sala, mas entra com a criança</h2>
+<div class="cols2 c55">
+ <div>
+  <ul class="bul">
+   <li class="fx left" style="--d:2">As duas escolas usam <b>pouca ou nenhuma tela</b> nas atividades: prioridade para o brincar, os materiais concretos e o parque.</li>
+   <li class="fx left" style="--d:3">Depois da lei sobre celulares, <b>nem os alunos mais velhos levam aparelhos</b> (Luciana).</li>
+   <li class="fx left" style="--d:4">Mesmo assim, as crianças chegam contando vídeos e jogos e <b>imitam bordões de youtubers</b>.</li>
+   <li class="fx left" style="--d:5">Na escola particular, a tela aparece no <b>aplicativo de comunicação com as famílias</b>.</li>
+  </ul>
+ </div>
+ <div class="stack">
+  <div class="fx img-frame pop" style="--d:4"><svg viewBox="0 0 240 160" class="img-book" aria-hidden="true">
+<path d="M120 30 C90 14 50 14 14 24 L14 146 C50 136 90 136 120 152 Z" fill="#f8fafc" stroke="#94a3b8" stroke-width="3"/>
+<path d="M120 30 C150 14 190 14 226 24 L226 146 C190 136 150 136 120 152 Z" fill="#e2e8f0" stroke="#94a3b8" stroke-width="3"/>
+<g stroke="#94a3b8" stroke-width="3" stroke-linecap="round"><line x1="32" y1="50" x2="102" y2="44"/><line x1="32" y1="66" x2="102" y2="60"/><line x1="32" y1="82" x2="90" y2="77"/>
+<line x1="138" y1="44" x2="208" y2="50"/><line x1="138" y1="60" x2="208" y2="66"/></g>
+<circle cx="172" cy="104" r="20" fill="#fde68a"/><path d="M160 112 Q172 126 184 112" stroke="#b45309" stroke-width="3" fill="none"/>
+<g class="swipe"><path d="M150 96 q0 -18 10 -18 q10 0 10 18 v26 q16 -4 18 8 l-6 22 h-40 l-8 -30 q-2 -10 10 -8 z" fill="#f4c7a1" stroke="#7c4a2d" stroke-width="2.5"/>
+<path d="M146 92 a18 18 0 0 1 28 0" stroke="#22d3ee" stroke-width="3" fill="none" class="ripple"/></g>
+</svg><span class="rec">● REC</span></div>
+  <blockquote class="fx quote " style="--d:6"><p>“Uma criança de apenas 2 anos tentando passar o dedo sobre a página de um livro, como se estivesse utilizando a tela de um celular.”</p><cite>— Renata, professora</cite></blockquote>
+ </div>
+</div></div></section>
+<section class="slide" data-n="6" style="--x:95;--y:135;--r:-4deg;--s:1">
+<div class="inner"><div class="fx kick " style="--d:0">REPORTAGEM</div><h2 class="fx type" style="--d:1">Os efeitos que os adultos percebem</h2>
+<div class="cols2 c64">
+ <div class="chips"><span class="fx chip pop" style="--d:2.0">Dificuldade para esperar a vez</span><span class="fx chip pop" style="--d:2.6">Pouca atenção a histórias até o fim</span><span class="fx chip pop" style="--d:3.2">Brincadeiras que só repetem vídeos</span><span class="fx chip pop" style="--d:3.8">Chegam à escola com sono</span><span class="fx chip pop" style="--d:4.4">Birra intensa ao retirar o celular</span><span class="fx chip pop" style="--d:5.0">Refeições sem prestar atenção ao alimento</span><span class="fx chip pop" style="--d:5.6">Dificuldade de brincar sozinho</span><span class="fx chip pop" style="--d:6.2">Atraso na fala que melhorou ao reduzir o tablet e conversar mais</span></div>
+ <div class="stack">
+  <div class="fx card warn pop" style="--d:7"><span class="tagmini y">MAS ATENÇÃO</span>
+   <p class="bigq">“Isso não acontece com todas.”</p><p class="small">Luciana: há crianças que usam bastante tecnologia e continuam brincando e interagindo; “o ambiente familiar e a presença dos adultos fazem muita diferença”.</p></div>
+  <div class="fx card pop" style="--d:8"><p class="small">Carla: a filha pega personagens dos desenhos, <b>inventa histórias e chama os pais para brincar</b>.</p></div>
+ </div>
+</div>
+<p class="fx note" style="--d:9">O efeito parece depender menos do aparelho e mais de <b>como</b>, <b>com quem</b> e <b>em que condições</b> ele é usado.</p></div></section>
+<section class="slide" data-n="7" style="--x:-40;--y:120;--r:3deg;--s:1.15">
+<div class="inner"><div class="fx kick " style="--d:0">LINK AO VIVO</div><h2 class="fx type" style="--d:1">Duas casas, duas realidades</h2>
+<div class="split">
+ <div class="fx cam left" style="--d:2"><div class="camtop"><span class="live">● AO VIVO</span> <svg viewBox="0 0 40 40" class="ico" aria-hidden="true"><path d="M4 20 L20 6 L36 20 V36 H24 V26 H16 V36 H4 Z" fill="currentColor"/></svg> CASA 1 · JOANA</div>
+  <ol class="tl">
+   <li><b>Manhã</b> escola</li><li><b>Tarde</b> com a avó e a irmã de 9 anos · YouTube no celular</li>
+   <li><b>18h</b> a mãe chega do trabalho; o filho ainda está no aparelho</li><li><b>Jantar</b> celular para conseguir cozinhar e nas refeições</li>
+   <li><b>Noite</b> dorme assistindo · o pai trabalha no turno da noite</li></ol>
+  <div class="sig"><i></i><i></i><i></i><i></i></div></div>
+ <div class="fx cam right" style="--d:3"><div class="camtop"><span class="live">● AO VIVO</span> <svg viewBox="0 0 40 40" class="ico" aria-hidden="true"><path d="M4 20 L20 6 L36 20 V36 H24 V26 H16 V36 H4 Z" fill="currentColor"/></svg> CASA 2 · CARLA</div>
+  <ol class="tl t2">
+   <li><b>Até 2 anos</b> quase nenhuma tela</li><li><b>Hoje</b> cerca de 1 hora de TV por dia, na sala</li>
+   <li><b>Regras do casal</b> nada de aparelho nas refeições nem antes de dormir</li><li><b>Exceção</b> TV quando há reunião on-line e ninguém para ficar com a filha</li>
+   <li><b>Em casa</b> livros, brinquedos e conteúdo assistido junto</li></ol>
+  <div class="sig"><i></i><i></i><i></i><i></i></div></div>
+</div>
+<blockquote class="fx quote wide" style="--d:5"><p>“Não adianta simplesmente dizer que a criança precisa brincar mais se não existem espaços seguros, creches em período integral ou alguém disponível para ajudar.”</p><cite>— Joana, mãe</cite></blockquote></div></section>
+<section class="slide" data-n="8" style="--x:-165;--y:90;--r:-6deg;--s:1">
+<div class="inner"><div class="fx breaking" style="--d:0"><span>URGENTE</span><b>Os adultos também estão conectados</b></div>
+<div class="cols2 c50 top8">
+ <div class="fx card pop" style="--d:2"><span class="tagmini">MUITOS ADULTOS, REGRAS DIFERENTES</span>
+  <p>Na casa de Joana, a avó libera o celular porque assim o neto <b>“fica quietinho”</b>.</p>
+  <p>Na escola particular, babás e avós permitem de dia o que os pais tentam controlar à noite: <b>“falta de continuidade nas orientações”</b> (Renata).</p>
+  <p class="small">Luciana percebe que algumas mães <b>se sentem julgadas</b> e prefere entender a rotina antes de orientar.</p></div>
+ <div class="fx card pop" style="--d:3"><span class="tagmini">O ADULTO NA TELA</span>
+  <p>A criança sai da escola animada para mostrar um desenho e encontra os pais olhando o celular (Renata).</p>
+  <p>Carla percebe que pega o aparelho <b>“automaticamente”</b> ao longo do dia.</p></div>
+</div>
+<blockquote class="fx quote wide" style="--d:5"><p>“Às vezes, cobramos das crianças uma atenção que nem nós mesmos conseguimos oferecer.”</p><cite>— Renata, professora</cite></blockquote></div></section>
+<section class="slide" data-n="9" style="--x:-190;--y:-20;--r:5deg;--s:1">
+<div class="inner"><div class="fx kick " style="--d:0">ARQUIVO</div><h2 class="fx type" style="--d:1">Ontem × hoje</h2>
+<div class="vs">
+ <div class="fx era old left" style="--d:2"><div class="era-img"><svg viewBox="0 0 200 170" aria-hidden="true" class="img-tv">
+<line x1="100" y1="40" x2="60" y2="4" stroke="#cbd5e1" stroke-width="4"/><line x1="100" y1="40" x2="140" y2="4" stroke="#cbd5e1" stroke-width="4"/>
+<rect x="10" y="40" width="180" height="115" rx="16" fill="#8b5e34" stroke="#3b2414" stroke-width="4"/>
+<rect x="24" y="52" width="120" height="90" rx="14" fill="#94a3b8"/>
+<rect x="24" y="52" width="120" height="90" rx="14" fill="url(#bars)"/>
+<defs><linearGradient id="bars" x1="0" x2="1"><stop offset="0" stop-color="#f8fafc"/><stop offset=".14" stop-color="#f8fafc"/><stop offset=".14" stop-color="#facc15"/><stop offset=".28" stop-color="#facc15"/><stop offset=".28" stop-color="#22d3ee"/><stop offset=".42" stop-color="#22d3ee"/><stop offset=".42" stop-color="#22c55e"/><stop offset=".57" stop-color="#22c55e"/><stop offset=".57" stop-color="#d946ef"/><stop offset=".71" stop-color="#d946ef"/><stop offset=".71" stop-color="#ef4444"/><stop offset=".85" stop-color="#ef4444"/><stop offset=".85" stop-color="#2563eb"/><stop offset="1" stop-color="#2563eb"/></linearGradient></defs>
+<circle cx="166" cy="76" r="9" fill="#3b2414"/><circle cx="166" cy="104" r="9" fill="#3b2414"/>
+<rect x="154" y="122" width="24" height="5" rx="2" fill="#3b2414"/><rect x="154" y="132" width="24" height="5" rx="2" fill="#3b2414"/>
+<rect x="34" y="155" width="16" height="12" fill="#3b2414"/><rect x="150" y="155" width="16" height="12" fill="#3b2414"/>
+</svg></div><h3>ONTEM</h3><ul>
+  <li>A TV tinha horários; o desenho <b>“simplesmente acabava”</b></li><li>O computador ficava num espaço <b>coletivo</b> da casa</li><li>A rua era lugar de brincar até escurecer</li></ul></div>
+ <div class="fx vsx pop" style="--d:3">×</div>
+ <div class="fx era new right" style="--d:4"><div class="era-img"><svg viewBox="0 0 120 220" class="img-phone" aria-hidden="true">
+<defs><linearGradient id="scr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs>
+<rect x="6" y="4" width="108" height="212" rx="18" fill="#0b1226" stroke="#cbd5e1" stroke-width="3"/>
+<rect x="14" y="22" width="92" height="170" rx="6" fill="url(#scr)"/>
+<rect x="46" y="10" width="28" height="5" rx="2.5" fill="#334155"/>
+<circle cx="60" cy="204" r="5" fill="#334155"/>
+<circle cx="60" cy="100" r="22" fill="rgba(255,255,255,.18)"/><path d="M53 88 L74 100 L53 112 Z" fill="#fff"/>
+<rect x="22" y="150" width="76" height="5" rx="2.5" fill="rgba(255,255,255,.35)"/>
+<rect x="22" y="150" width="40" height="5" rx="2.5" fill="#e11d2e"/>
+<rect x="22" y="164" width="34" height="18" rx="3" fill="rgba(255,255,255,.25)"/><rect x="62" y="164" width="34" height="18" rx="3" fill="rgba(255,255,255,.25)"/>
+</svg></div><h3>HOJE</h3><ul>
+  <li>Algoritmos oferecem <b>“um vídeo depois do outro, sem uma interrupção natural”</b> (Carla)</li><li>Cada pessoa da família tem o <b>seu aparelho</b>, desde os primeiros meses</li><li>Em muitos bairros, <b>não há segurança</b> para brincar na rua (Joana)</li></ul></div>
+</div></div></section>
+<section class="slide" data-n="10" style="--x:-20;--y:-150;--r:0deg;--s:1.6">
+<div class="inner"><div class="ppct-head">
+ <div class="fx kick blue" style="--d:0">COMENTÁRIO DO ESPECIALISTA</div>
+ <h2 class="fx type" style="--d:1">O modelo bioecológico de Bronfenbrenner</h2>
+ <p class="fx sub2" style="--d:2"><b>Processos proximais</b>: interações regulares, recíprocas e cada vez mais complexas são os motores do desenvolvimento.</p>
+</div></div></section>
+<section class="slide sub" data-n="11" style="--x:-45;--y:-160;--r:0deg;--s:0.45">
+<div class="inner"><div class="subhead"><span class="letter red">P</span><div><div class="fx kick blue" style="--d:0">MATRIZ PPCT</div><h2 class="fx type" style="--d:1">Pessoa</h2></div></div><div class="cols2 c50">
+ <div><p class="fx lead" style="--d:2">Crianças de <b>2 a 5 anos</b>: linguagem em expansão, faz de conta cada vez mais complexo e funções executivas (esperar, inibir impulsos, sustentar a atenção) em construção (Papalia; Martorell, 2022).</p>
+ <div class="trio"><div class="fx mini pop" style="--d:3"><b>Demanda</b>idade, aparência</div><div class="fx mini pop" style="--d:4"><b>Recurso</b>habilidades, experiências</div><div class="fx mini pop" style="--d:5"><b>Força</b>disposições, iniciativa</div></div></div>
+ <div class="stack"><div class="fx card risk pop" style="--d:6"><span class="tagmini">FILHO DE JOANA</span><p>Irritação intensa ao retirar o celular e dificuldade de esperar a vez: disposições que afastam das atividades compartilhadas.</p></div>
+ <div class="fx card prot pop" style="--d:7"><span class="tagmini g">FILHA DE CARLA</span><p>Transforma personagens em histórias e convida os pais: <b>força geradora</b>.</p></div>
+ <p class="fx note c" style="--d:8">Exposição semelhante, resultados diferentes.</p></div>
+</div></div></section>
+<section class="slide sub" data-n="12" style="--x:5;--y:-160;--r:0deg;--s:0.45">
+<div class="inner"><div class="subhead"><span class="letter amber">P</span><div><div class="fx kick blue" style="--d:0">MATRIZ PPCT</div><h2 class="fx type" style="--d:1">Processo</h2></div></div><div class="cols2 c50">
+ <div class="stack">
+  <div class="fx card risk pop" style="--d:2"><span class="tagmini">QUANDO A TELA SUBSTITUI</span><p>Sozinha com o aparelho, no jantar ou até dormir, a criança perde o tempo da <b>conversa à mesa</b>, da <b>história antes de dormir</b>, da <b>brincadeira com a irmã</b>.</p></div>
+  <div class="fx card prot pop" style="--d:3"><span class="tagmini g">QUANDO A TELA INTEGRA</span><p>Adulto que <b>assiste junto, comenta e transforma em brincadeira</b> (casa de Carla).</p></div>
+ </div>
+ <div class="stack">
+  <div class="fx card hl pop" style="--d:4"><span class="tagmini">VIGOTSKI (2007)</span><p>Linguagem e atenção voluntária se formam <b>primeiro na relação com o outro</b>. O faz de conta cria uma <b>zona de desenvolvimento iminente</b>.</p></div>
+  <p class="fx lead" style="--d:5">O menino com atraso na fala evoluiu quando a família <b>“passou a conversar mais com ele”</b>. E o adulto no celular rompe a <b>reciprocidade</b>, condição do processo proximal.</p>
+ </div>
+</div></div></section>
+<section class="slide sub" data-n="13" style="--x:-45;--y:-131;--r:0deg;--s:0.45">
+<div class="inner"><div class="subhead"><span class="letter cyan">C</span><div><div class="fx kick blue" style="--d:0">MATRIZ PPCT</div><h2 class="fx type" style="--d:1">Contexto</h2></div></div><div class="cols2 c4060">
+ <div class="fx rings pop" style="--d:2"><div class="ring r4"><span>MACRO</span></div><div class="ring r3"><span>EXO</span></div><div class="ring r2"><span>MESO</span></div><div class="ring r1"><span>MICRO</span></div><div class="kid">criança</div></div>
+ <div class="levels">
+  <div class="fx lvl left" style="--d:3"><b>Micro</b> casa e escola: parque e materiais concretos; em casa, tempo, espaço e adultos disponíveis variam muito.</div>
+  <div class="fx lvl left" style="--d:4"><b>Meso</b> regras diferentes entre pais, avós e babás; diálogo escola–família ora com escuta, ora com julgamento.</div>
+  <div class="fx lvl left" style="--d:5"><b>Exo</b> jornadas longas, turno noturno, falta de creche integral e de praças seguras; <b>algoritmos das plataformas</b>.</div>
+  <div class="fx lvl left" style="--d:6"><b>Macro</b> cultura da conectividade, desigualdade, sobrecarga das mulheres e culpabilização das mães; ECA, Marco Legal e Lei 15.100/2025.</div>
+ </div>
+</div></div></section>
+<section class="slide sub" data-n="14" style="--x:5;--y:-131;--r:0deg;--s:0.45">
+<div class="inner"><div class="subhead"><span class="letter violet">T</span><div><div class="fx kick blue" style="--d:0">MATRIZ PPCT</div><h2 class="fx type" style="--d:1">Tempo</h2></div></div><div class="timeline3">
+ <div class="fx tcard pop" style="--d:2"><div class="clock-ico"><i></i><i></i></div><h3>Microtempo</h3><p>A tela entra no <b>jantar</b>, nas <b>refeições</b> e na <b>hora de dormir</b>: rituais de conversa e de preparação para o sono. Daí a sonolência e a agitação relatadas.</p></div>
+ <div class="fx tcard pop" style="--d:3"><div class="clock-ico cal"></div><h3>Mesotempo</h3><p>Parque na folga e a vizinha que reúne crianças são <b>episódios protetores, mas raros</b>. As regras da casa de Carla se repetem <b>todos os dias</b>.</p></div>
+ <div class="fx tcard pop" style="--d:4"><div class="clock-ico hist"></div><h3>Macrotempo</h3><p>Da TV coletiva com grade fixa ao <b>dispositivo individual com fluxo infinito</b>; da rua ao confinamento em áreas urbanas inseguras.</p></div>
+</div>
+<p class="fx note c" style="--d:5">Cuidado ao comparar gerações sem considerar as mudanças de contexto.</p></div></section>
+<section class="slide" data-n="15" style="--x:120;--y:-120;--r:4deg;--s:1">
+<div class="inner"><div class="fx kick " style="--d:0">PLACAR</div><h2 class="fx type" style="--d:1">Fatores de risco × fatores de proteção</h2>
+<div class="score">
+ <div class="fx srow shead" style="--d:2"><span></span><span class="rk">RISCO</span><span class="pt">PROTEÇÃO</span></div>
+ <div class="fx srow left" style="--d:3.0"><span class="lv">Pessoa</span><span>Pouca idade; baixa tolerância à frustração</span><span>Curiosidade e iniciativa para brincar com o que assistiu</span></div><div class="fx srow left" style="--d:3.5"><span class="lv">Processo</span><span>Uso solitário; tela nas refeições e antes de dormir; adulto no celular</span><span>Assistir junto; conversa, leitura e brincadeira diárias</span></div><div class="fx srow left" style="--d:4.0"><span class="lv">Micro</span><span>Casa pequena; nenhum adulto disponível à tarde</span><span>Escola com parque; livros e brinquedos; regras claras</span></div><div class="fx srow left" style="--d:4.5"><span class="lv">Meso</span><span>Regras diferentes entre cuidadores; escola que julga</span><span>Acordos entre cuidadores; escola que escuta as famílias</span></div><div class="fx srow left" style="--d:5.0"><span class="lv">Exo</span><span>Jornadas longas; sem creche integral nem praça segura; algoritmos</span><span>Vizinha que reúne crianças; folga para o parque</span></div><div class="fx srow left" style="--d:5.5"><span class="lv">Macro</span><span>Conectividade constante; desigualdade; sobrecarga materna</span><span>Leis de proteção à infância; celular restrito na escola</span></div><div class="fx srow left" style="--d:6.0"><span class="lv">Tempo</span><span>Uso diário em horários de sono e refeição</span><span>Rotina estável com hora para desligar</span></div>
+</div></div></section>
+<section class="slide" data-n="16" style="--x:240;--y:-80;--r:-5deg;--s:1">
+<div class="inner"><div class="fx kick " style="--d:0">SERVIÇO</div><h2 class="fx type" style="--d:1">O que isso significa para a Psicologia</h2>
+<div class="acts"><div class="fx act pop" style="--d:2"><span class="an">1</span><h3>Escutar antes de orientar</h3><p>Entender a rotina e as condições de cada família. Orientação sem contexto aumenta a culpa.</p></div><div class="fx act pop" style="--d:3"><span class="an">2</span><h3>Fortalecer processos proximais</h3><p>Mais do que tirar a tela: devolver conversa, leitura e brincadeira compartilhada.</p></div><div class="fx act pop" style="--d:4"><span class="an">3</span><h3>Articular o mesossistema</h3><p>Mediar acordos entre escola e família e entre pais, avós e babás.</p></div><div class="fx act pop" style="--d:5"><span class="an">4</span><h3>Incluir os adultos</h3><p>Psicoeducação também sobre o uso de telas pelos cuidadores e professores.</p></div><div class="fx act pop" style="--d:6"><span class="an">5</span><h3>Atuar em políticas públicas</h3><p>Creche integral, espaços seguros de lazer e regulação das plataformas.</p></div></div>
+<p class="fx note" style="--d:8">Observar sinais como <b>atraso de linguagem</b>, <b>sono</b> e <b>autorregulação</b> para encaminhar cedo, sem atribuir à tela, de forma isolada, todas as dificuldades.</p></div></section>
+<section class="slide" data-n="17" style="--x:360;--y:-110;--r:3deg;--s:1">
+<div class="inner"><div class="fx kick " style="--d:0">PARTICIPE</div><h2 class="fx type" style="--d:1">A palavra é da turma</h2>
+<div class="polls">
+ <div class="fx poll pop" style="--d:2"><span class="pq">PERGUNTA 1</span><p>Se a tela, em algumas famílias, é a alternativa <b>mais acessível e segura</b> de cuidado, como a Psicologia pode orientar <b>sem culpabilizar as mães</b> e, ao mesmo tempo, sem naturalizar o uso excessivo?</p></div>
+ <div class="fx poll pop" style="--d:3"><span class="pq">PERGUNTA 2</span><p>Se os adultos também estão “presos” ao celular, de quem é a responsabilidade de mudar primeiro: <b>da família, da escola ou das empresas</b> que desenham as plataformas?</p></div>
+</div>
+<div class="fx onair" style="--d:4"><span class="mic"></span> MICROFONE ABERTO PARA O DEBATE</div></div></section>
+<section class="slide final" data-n="18" style="--x:85;--y:-10;--r:0deg;--s:7">
+<div class="inner"><div class="end">
+ <div class="end-l">
+  <div class="fx kick" style="--d:0">ENCERRAMENTO</div>
+  <h1 class="fx type" style="--d:1">Boa noite!</h1>
+  <p class="fx sub" style="--d:2">Obrigado pela audiência.</p>
+  <p class="fx meta" style="--d:3">Reportagem e apresentação: <b>Nicolle, Ruth, Ryan e Weney</b><br>Grupo 2 · Psicologia do Desenvolvimento – Infância e Adolescência · UCB<br>Profa. Bianca Mayumi Matsuura Yoshioka</p>
+ </div>
+ <div class="fx credits pop" style="--d:3"><div class="roll"><h4>REFERÊNCIAS</h4><p>BRASIL. Lei nº 8.069, de 13 de julho de 1990 (ECA).</p><p>BRASIL. Lei nº 13.257, de 8 de março de 2016 (Marco Legal da Primeira Infância).</p><p>BRASIL. Lei nº 15.100, de 13 de janeiro de 2025.</p><p>BRONFENBRENNER, U. A ecologia do desenvolvimento humano. Porto Alegre: Artes Médicas, 1996.</p><p>BRONFENBRENNER, U. Bioecologia do desenvolvimento humano. Porto Alegre: Artmed, 2011.</p><p>BRONFENBRENNER, U.; MORRIS, P. A. The bioecological model of human development. Wiley, 2006.</p><p>KOLLER, S. H. (org.). Ecologia do desenvolvimento humano. São Paulo: Casa do Psicólogo, 2004.</p><p>PAPALIA, D. E.; MARTORELL, G. Desenvolvimento humano. 14. ed. AMGH, 2022.</p><p>SBP. Manual de orientação: #MenosTelas #MaisSaúde. 2019.</p><p>VIGOTSKI, L. S. A formação social da mente. 7. ed. Martins Fontes, 2007.</p><p>WHO. Guidelines on physical activity, sedentary behaviour and sleep for children under 5. 2019.</p><h4>AGRADECIMENTO</h4><p>Às quatro entrevistadas que dividiram suas rotinas com a gente.</p></div></div>
+</div></div></section>
+ </div></div></div>
+
+ <div class="scan"></div>
+ <div class="flash"></div>
+ <div class="plantao"><span>PLANTÃO</span><span>PLANTÃO</span><span>PLANTÃO</span></div>
+
+ <header class="topbar">
+  <div class="brand"><svg viewBox="0 0 100 100" class="logo-mark" aria-hidden="true">
+<circle cx="50" cy="50" r="46" fill="none" stroke="#e11d2e" stroke-width="6"/>
+<circle cx="50" cy="50" r="34" fill="none" stroke="#ffb703" stroke-width="5" stroke-dasharray="40 14" class="spin"/>
+<circle cx="50" cy="50" r="22" fill="none" stroke="#22d3ee" stroke-width="4" stroke-dasharray="20 10" class="spin rev"/>
+<circle cx="50" cy="50" r="10" fill="#fff"/></svg><div><b>JORNAL DO DESENVOLVIMENTO</b><small>Grupo 2 · Psicologia UCB</small></div></div>
+  <div class="onair"><span class="dot"></span>AO VIVO <span class="sep">|</span> BRASÍLIA <span class="clock" title="Tempo no ar"></span></div>
+ </header>
+
+ <div class="lowerthird">
+<div class="lt" data-n="1"><span class="lt-tag">AO VIVO</span><div class="lt-txt"><b>Edição especial: telas na primeira infância</b><small>Grupo 2 · Psicologia do Desenvolvimento – Infância e Adolescência · UCB</small></div></div>
+<div class="lt" data-n="2"><span class="lt-tag">MANCHETE</span><div class="lt-txt"><b>Desenvolver-se onde, com quem e em que condições?</b><small>Por que o tema importa para o desenvolvimento</small></div></div>
+<div class="lt" data-n="3"><span class="lt-tag">SERVIÇO</span><div class="lt-txt"><b>O que dizem as recomendações</b><small>SBP (2019) · OMS (2019) · Lei nº 15.100/2025</small></div></div>
+<div class="lt" data-n="4"><span class="lt-tag">BASTIDORES</span><div class="lt-txt"><b>Como a reportagem foi feita</b><small>4 entrevistas · nomes fictícios · TCLE assinado</small></div></div>
+<div class="lt" data-n="5"><span class="lt-tag">REPORTAGEM</span><div class="lt-txt"><b>Na escola, a tela fica de fora, mas entra com a criança</b><small>Professoras Luciana e Renata (nomes fictícios)</small></div></div>
+<div class="lt" data-n="6"><span class="lt-tag">REPORTAGEM</span><div class="lt-txt"><b>Os efeitos que os adultos percebem</b><small>Atenção, espera, sono, fala e brincar</small></div></div>
+<div class="lt" data-n="7"><span class="lt-tag">LINK AO VIVO</span><div class="lt-txt"><b>Duas casas, duas realidades</b><small>Mães Joana e Carla (nomes fictícios)</small></div></div>
+<div class="lt" data-n="8"><span class="lt-tag">URGENTE</span><div class="lt-txt"><b>Os adultos também estão conectados</b><small>Rede de cuidado e exemplo dentro de casa</small></div></div>
+<div class="lt" data-n="9"><span class="lt-tag">ARQUIVO</span><div class="lt-txt"><b>Ontem × hoje</b><small>O que mudou de uma geração para outra</small></div></div>
+<div class="lt" data-n="10"><span class="lt-tag">ANÁLISE</span><div class="lt-txt"><b>O modelo bioecológico de Bronfenbrenner</b><small>Pessoa · Processo · Contexto · Tempo</small></div></div>
+<div class="lt" data-n="11"><span class="lt-tag">ANÁLISE · P</span><div class="lt-txt"><b>Pessoa</b><small>Características de demanda, de recurso e de força</small></div></div>
+<div class="lt" data-n="12"><span class="lt-tag">ANÁLISE · P</span><div class="lt-txt"><b>Processo</b><small>Processos proximais e mediação (Vigotski)</small></div></div>
+<div class="lt" data-n="13"><span class="lt-tag">ANÁLISE · C</span><div class="lt-txt"><b>Contexto</b><small>Micro, meso, exo e macrossistema</small></div></div>
+<div class="lt" data-n="14"><span class="lt-tag">ANÁLISE · T</span><div class="lt-txt"><b>Tempo</b><small>Microtempo, mesotempo e macrotempo</small></div></div>
+<div class="lt" data-n="15"><span class="lt-tag">PLACAR</span><div class="lt-txt"><b>Fatores de risco × fatores de proteção</b><small>Leitura por nível da matriz PPCT</small></div></div>
+<div class="lt" data-n="16"><span class="lt-tag">SERVIÇO</span><div class="lt-txt"><b>O que isso significa para a Psicologia</b><small>Cinco direções de atuação</small></div></div>
+<div class="lt" data-n="17"><span class="lt-tag">PARTICIPE</span><div class="lt-txt"><b>A palavra é da turma</b><small>Perguntas para o debate</small></div></div>
+<div class="lt" data-n="18"><span class="lt-tag">ENCERRAMENTO</span><div class="lt-txt"><b>Boa noite e obrigado pela audiência</b><small>Nicolle · Ruth · Ryan · Weney</small></div></div>
+ </div>
+
+ <footer class="bar">
+  <div class="progress"></div>
+  <div class="slot slot-prev">
+   <span class="btn prev off p0"><span>◀</span> VOLTAR</span>
+<label for="s1" class="btn prev p1" title="Voltar"><span>◀</span> VOLTAR</label>
+<label for="s2" class="btn prev p2" title="Voltar"><span>◀</span> VOLTAR</label>
+<label for="s3" class="btn prev p3" title="Voltar"><span>◀</span> VOLTAR</label>
+<label for="s4" class="btn prev p4" title="Voltar"><span>◀</span> VOLTAR</label>
+<label for="s5" class="btn prev p5" title="Voltar"><span>◀</span> VOLTAR</label>
+<label for="s6" class="btn prev p6" title="Voltar"><span>◀</span> VOLTAR</label>
+<label for="s7" class="btn prev p7" title="Voltar"><span>◀</span> VOLTAR</label>
+<label for="s8" class="btn prev p8" title="Voltar"><span>◀</span> VOLTAR</label>
+<label for="s9" class="btn prev p9" title="Voltar"><span>◀</span> VOLTAR</label>
+<label for="s10" class="btn prev p10" title="Voltar"><span>◀</span> VOLTAR</label>
+<label for="s11" class="btn prev p11" title="Voltar"><span>◀</span> VOLTAR</label>
+<label for="s12" class="btn prev p12" title="Voltar"><span>◀</span> VOLTAR</label>
+<label for="s13" class="btn prev p13" title="Voltar"><span>◀</span> VOLTAR</label>
+<label for="s14" class="btn prev p14" title="Voltar"><span>◀</span> VOLTAR</label>
+<label for="s15" class="btn prev p15" title="Voltar"><span>◀</span> VOLTAR</label>
+<label for="s16" class="btn prev p16" title="Voltar"><span>◀</span> VOLTAR</label>
+<label for="s17" class="btn prev p17" title="Voltar"><span>◀</span> VOLTAR</label>
+  </div>
+  <div class="ticker"><div class="tk-label">ÚLTIMAS</div><div class="tk-track"><div class="tk-move"><span>SBP recomenda evitar telas antes dos 2 anos</span> <span>Dos 2 aos 5 anos: até 1 hora por dia, com supervisão</span> <span>Lei nº 15.100/2025 restringe celulares nas escolas</span> <span>Grupo 2 ouviu duas professoras e duas mães</span> <span>Bronfenbrenner: o desenvolvimento acontece nas relações</span> <span>Vigotski: a linguagem se forma primeiro na relação com o outro</span> <span>Psicologia: escutar antes de orientar</span> <span>SBP recomenda evitar telas antes dos 2 anos</span> <span>Dos 2 aos 5 anos: até 1 hora por dia, com supervisão</span> <span>Lei nº 15.100/2025 restringe celulares nas escolas</span> <span>Grupo 2 ouviu duas professoras e duas mães</span> <span>Bronfenbrenner: o desenvolvimento acontece nas relações</span> <span>Vigotski: a linguagem se forma primeiro na relação com o outro</span> <span>Psicologia: escutar antes de orientar</span></div></div></div>
+  <div class="count"></div>
+  <div class="slot slot-next">
+<label for="s2" class="btn next n2" title="Avançar">AVANÇAR <span>▶</span></label>
+<label for="s3" class="btn next n3" title="Avançar">AVANÇAR <span>▶</span></label>
+<label for="s4" class="btn next n4" title="Avançar">AVANÇAR <span>▶</span></label>
+<label for="s5" class="btn next n5" title="Avançar">AVANÇAR <span>▶</span></label>
+<label for="s6" class="btn next n6" title="Avançar">AVANÇAR <span>▶</span></label>
+<label for="s7" class="btn next n7" title="Avançar">AVANÇAR <span>▶</span></label>
+<label for="s8" class="btn next n8" title="Avançar">AVANÇAR <span>▶</span></label>
+<label for="s9" class="btn next n9" title="Avançar">AVANÇAR <span>▶</span></label>
+<label for="s10" class="btn next n10" title="Avançar">AVANÇAR <span>▶</span></label>
+<label for="s11" class="btn next n11" title="Avançar">AVANÇAR <span>▶</span></label>
+<label for="s12" class="btn next n12" title="Avançar">AVANÇAR <span>▶</span></label>
+<label for="s13" class="btn next n13" title="Avançar">AVANÇAR <span>▶</span></label>
+<label for="s14" class="btn next n14" title="Avançar">AVANÇAR <span>▶</span></label>
+<label for="s15" class="btn next n15" title="Avançar">AVANÇAR <span>▶</span></label>
+<label for="s16" class="btn next n16" title="Avançar">AVANÇAR <span>▶</span></label>
+<label for="s17" class="btn next n17" title="Avançar">AVANÇAR <span>▶</span></label>
+<label for="s18" class="btn next n18" title="Avançar">AVANÇAR <span>▶</span></label>
+   <label for="s1" class="btn next again" title="Recomeçar">REPRISE <span>↺</span></label>
+  </div>
+ </footer>
+
+ <div class="vinheta" aria-hidden="true">
+  <i class="vb v1"></i><i class="vb v2"></i><i class="vb v3"></i>
+  <div class="vlogo"><svg viewBox="0 0 100 100" class="logo-mark" aria-hidden="true">
+<circle cx="50" cy="50" r="46" fill="none" stroke="#e11d2e" stroke-width="6"/>
+<circle cx="50" cy="50" r="34" fill="none" stroke="#ffb703" stroke-width="5" stroke-dasharray="40 14" class="spin"/>
+<circle cx="50" cy="50" r="22" fill="none" stroke="#22d3ee" stroke-width="4" stroke-dasharray="20 10" class="spin rev"/>
+<circle cx="50" cy="50" r="10" fill="#fff"/></svg><div class="vtxt"><b>JORNAL DO</b><b>DESENVOLVIMENTO</b><small>EDIÇÃO ESPECIAL · TELAS NA PRIMEIRA INFÂNCIA</small></div></div>
+ </div>
+</main>
+</body>
+</html>
